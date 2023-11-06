@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EHR.Core", "EHR.Core\EHR.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDbRepo", "EFDbRepo\EFDbRepo.csproj", "{4808C3C4-FC20-406F-B8F0-9D654401C3D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EHR.AppService", "EHR.AppService\EHR.AppService.csproj", "{55008D89-2149-4633-A92F-E4422E66EAEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4808C3C4-FC20-406F-B8F0-9D654401C3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4808C3C4-FC20-406F-B8F0-9D654401C3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4808C3C4-FC20-406F-B8F0-9D654401C3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55008D89-2149-4633-A92F-E4422E66EAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55008D89-2149-4633-A92F-E4422E66EAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55008D89-2149-4633-A92F-E4422E66EAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55008D89-2149-4633-A92F-E4422E66EAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

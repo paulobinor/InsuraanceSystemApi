@@ -1,0 +1,4 @@
+{
+  "MyConnectionString": "Server=.\\sqlexpress;Database=InsuranceSysDB;Trusted_Connection=True;"
+
+}

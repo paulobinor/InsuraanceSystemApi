@@ -1,5 +1,4 @@
 using EHR.Api.Dtos;
-using EHR.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EHR.Api.Controllers
@@ -16,16 +15,11 @@ namespace EHR.Api.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<PolicyHolderDto> Get()
+        [HttpGet(Name = "create")]
+        public  async Task<ActionResult<PolicyHolderDto>> Create([FromBody] PolicyHolderDto policyHolderDto)
         {
-            return Enumerable.Range(1, 5).Select(index => new PolicyHolderDto
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            return new PolicyHolderDto { DoB = DateTime.Now, Name = "create" };
+            
         }
     }
 }
