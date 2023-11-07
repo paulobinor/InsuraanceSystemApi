@@ -2,7 +2,7 @@ using EHR.Core.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EHR.Api.Dtos
+namespace EHR.Core.Models
 {
     public class Claim
     {

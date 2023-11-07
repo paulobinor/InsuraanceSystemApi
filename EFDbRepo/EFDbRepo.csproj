@@ -32,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EHR.AppService\EHR.AppService.csproj" />
     <ProjectReference Include="..\EHR.Core\EHR.Core.csproj" />
   </ItemGroup>
 

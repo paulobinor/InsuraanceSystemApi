@@ -1,12 +1,11 @@
 using System.ComponentModel.DataAnnotations;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace EHR.Api.Dtos
+namespace EHR.Core.Models
 {
     public class PolicyHolder
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
         public DateTime DoB { get; set; }
         public DateTime DateCreated { get; set; }
         [StringLength(50)]

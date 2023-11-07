@@ -1,6 +1,5 @@
-﻿using EHR.Api.Dtos;
+﻿using EHR.Core.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace EFDbRepo
 {

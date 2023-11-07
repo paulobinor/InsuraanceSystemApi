@@ -1,12 +1,13 @@
-﻿using EHR.Core.Models;
+﻿
+using EHR.Core.Models;
 
-namespace EHR.Core.Interfaces
+namespace EHR.AppService.Interfaces
 {
-    public interface IEHRService
+    public interface IDbRepo
     {
         Task<PolicyHolder> Create(PolicyHolder holder);
         Task<int> Submit(Claim claim);
         Task<int> UpdateClaim(Claim claimstatus);
-        Task<Claim> ClaimStatus(string CLaimID);
+        Task<Claim> GetClaimStatus(string CLaimID);
     }
 }
